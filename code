@@ -1,0 +1,8 @@
+    gs_alv_fieldcat-fieldname = 'VBELN'.
+    gs_alv_fieldcat-tabname   = '<T_TABLE>'.
+    gs_alv_fieldcat-outputlen = '4'.
+*    gs_alv_fieldcat-coltext   = 'Empresa'.
+    gs_alv_fieldcat-seltext_l   = 'Empresa'.
+    gs_alv_fieldcat-seltext_m   = 'Empresa'.
+    gs_alv_fieldcat-seltext_s   = 'Empresa'.
+    APPEND gs_alv_fieldcat TO gt_alv_fieldcat .
